@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMMFLOW - Продвижение в соцсетях</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0056ff',
+                        secondary: '#ff4757',
+                        dark: '#1e272e',
+                        light: '#f8f9fb',
+                        gray: '#dfe6e9',
+                    },
+                    fontFamily: {
+                        sans: ['Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .gradient-bg {
+            background: linear-gradient(135deg, #ff4757, #ff6b81);
+        }
+
+        .platform-icon {
+            transition: all 0.3s ease;
+        }
+
+        .platform-icon:hover {
+            transform: translateY(-3px);
+        }
+
+        .faq-item {
+            transition: all 0.3s ease;
+        }
+
+        .faq-item:hover {
+            border-color: #0056ff;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body class="bg-light text-dark">
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50 py-4">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+            <div class="flex items-center mb-4 md:mb-0">
+                <img src="./rasmlar/Group 15.png" alt="SMMFLOW Logo" class="h-10">
+            </div>
+
+            <nav class="flex items-center w-full md:w-auto justify-between">
+                <ul class="hidden md:flex space-x-6 mr-6">
+                    <li><a href="#" class="font-medium hover:text-primary transition">Услуги</a></li>
+                    <li><a href="#" class="font-medium hover:text-primary transition">Преимущества</a></li>
+                    <li><a href="#" class="font-medium hover:text-primary transition">Отзывы</a></li>
+                    <li><a href="#" class="font-medium hover:text-primary transition">FAQ</a></li>
+                    <a href="./index2.html.html">Konspektga utish</a>
+                </ul>
+
+                <div class="flex items-center space-x-4">
+                    <a href="#" class="font-medium hover:text-primary transition hidden md:block">Войти</a>
+                    <a href="#"
+                        class="bg-primary text-white px-6 py-2 rounded-md font-bold hover:bg-blue-700 transition transform hover:-translate-y-0.5 shadow hover:shadow-md">Быстрый
+                        заказ</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-white py-16 md:py-24 text-center">
+        <div class="container mx-auto px-4">
+            <h1 class="text-3xl md:text-5xl font-bold mb-6 leading-tight">Продвижение во всех соцсетях за пару кликов
+            </h1>
+            <p class="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-10">
+                Получайте подписчиков, лайки, репосты, просмотры, прослушивания и любую другую активность на свои
+                профили в социальных сетях по самым низким ценам и в самые быстрые сроки!
+            </p>
+
+            <div class="mb-12">
+                <img src="./rasmlar/Saly-1.png" alt="Social Media Promotion" class="mx-auto w-full max-w-md">
+            </div>
+
+            <a href="#"
+                class="bg-primary text-white px-8 py-3 rounded-md font-bold text-lg hover:bg-blue-700 transition transform hover:-translate-y-0.5 shadow-lg hover:shadow-xl">
+                Начать продвижение
+            </a>
+        </div>
+    </section>
+
+    <!-- Quick Order Section -->
+    <section class="bg-primary text-white py-16 md:py-20">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-12">Быстрый заказ</h2>
+
+            <div class="flex flex-wrap justify-center gap-3 mb-10">
+                <div class="flex items-center bg-white text-primary px-4 py-2 rounded-full font-semibold shadow">
+                    <img src="./rasmlar/Frame 5.png" alt="Instagram" class="w-6 h-6 mr-2 platform-icon">
+                    Instagram
+                </div>
+                <div class="flex items-center bg-white text-primary px-4 py-2 rounded-full font-semibold shadow">
+                    <img src="./rasmlar/Frame 6.png" alt="VK" class="w-6 h-6 mr-2 platform-icon">
+                    VK
+                </div>
+                <div class="flex items-center bg-white text-primary px-4 py-2 rounded-full font-semibold shadow">
+                    <img src="./rasmlar/Frame 7.png" alt="TikTok" class="w-6 h-6 mr-2 platform-icon">
+                    TikTok
+                </div>
+                <div class="flex items-center bg-white text-primary px-4 py-2 rounded-full font-semibold shadow">
+                    <img src="./rasmlar/Frame 8.png" alt="Telegram" class="w-6 h-6 mr-2 platform-icon">
+                    Telegram
+                </div>
+                <div class="flex items-center bg-white text-primary px-4 py-2 rounded-full font-semibold shadow">
+                    <img src="./rasmlar/Frame 9.png" alt="YouTube" class="w-6 h-6 mr-2 platform-icon">
+                    YouTube
+                </div>
+                <div class="flex items-center bg-white text-primary px-4 py-2 rounded-full font-semibold shadow">
+                    <img src="./rasmlar/Frame 13.png" alt="Facebook" class="w-6 h-6 mr-2 platform-icon">
+                    Facebook
+                </div>
+                <div class="flex items-center bg-white text-primary px-4 py-2 rounded-full font-semibold shadow">
+                    <img src="./rasmlar/Frame 10.png" alt="Twitter" class="w-6 h-6 mr-2 platform-icon">
+                    Twitter
+                </div>
+                <div class="flex items-center bg-white text-primary px-4 py-2 rounded-full font-semibold shadow">
+                    <img src="./rasmlar/Frame 11.png" alt="Twitch" class="w-6 h-6 mr-2 platform-icon">
+                    Twitch
+                </div>
+                <div class="flex items-center bg-white text-primary px-4 py-2 rounded-full font-semibold shadow">
+                    <img src="./rasmlar/Frame 12.png" alt="Rutube" class="w-6 h-6 mr-2 platform-icon">
+                    Rutube
+                </div>
+            </div>
+
+            <div class="flex flex-wrap justify-center gap-3 mt-6">
+                <div class="flex items-center bg-white text-primary px-5 py-3 rounded-md font-semibold shadow">
+                    <img src="./rasmlar/Frame 12 (1).png" alt="Подписчики" class="w-6 h-6 mr-2 platform-icon">
+                    Подписчики
+                </div>
+                <div class="flex items-center bg-white text-primary px-5 py-3 rounded-md font-semibold shadow">
+                    <img src="./rasmlar/Frame 12 (2).png" alt="Лайки" class="w-6 h-6 mr-2 platform-icon">
+                    Лайки
+                </div>
+                <div class="flex items-center bg-white text-primary px-5 py-3 rounded-md font-semibold shadow">
+                    <img src="./rasmlar/Frame 12 (3).png" alt="Просмотры" class="w-6 h-6 mr-2 platform-icon">
+                    Просмотры
+                </div>
+                <div class="flex items-center bg-white text-primary px-5 py-3 rounded-md font-semibold shadow">
+                    <img src="./rasmlar/Frame 12 (4).png" alt="Комментарии" class="w-6 h-6 mr-2 platform-icon">
+                    Комментарии
+                </div>
+                <div class="flex items-center bg-white text-primary px-5 py-3 rounded-md font-semibold shadow">
+                    <img src="./rasmlar/Frame 12 (5).png" alt="Зрители в эфир" class="w-6 h-6 mr-2 platform-icon">
+                    Зрители в эфир
+                </div>
+                <div class="flex items-center bg-white text-primary px-5 py-3 rounded-md font-semibold shadow">
+                    <img src="./rasmlar/Frame 12 (6).png" alt="Статистика" class="w-6 h-6 mr-2 platform-icon">
+                    Статистика
+                </div>
+                <div class="flex items-center bg-white text-primary px-5 py-3 rounded-md font-semibold shadow">
+                    <img src="./rasmlar/Frame 12 (7).png" alt="IGTV" class="w-6 h-6 mr-2 platform-icon">
+                    IGTV
+                </div>
+                <div class="flex items-center bg-white text-primary px-5 py-3 rounded-md font-semibold shadow">
+                    <img src="./rasmlar/Frame 12 (8).png" alt="Reels" class="w-6 h-6 mr-2 platform-icon">
+                    Reels
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="bg-white py-16 md:py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Отзывы клиентов</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Review 1 -->
+                <div class="bg-white rounded-xl shadow-md p-6 border border-gray-200 hover:border-primary transition">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="flex items-center">
+                            <img src="./rasmlar/73x73.png.png" alt="Александр" class="w-12 h-12 rounded-full mr-4">
+                            <div>
+                                <h3 class="font-bold">Александр</h3>
+                            </div>
+                        </div>
+                        <div class="text-yellow-400 text-lg">★★★★★</div>
+                    </div>
+                    <p class="text-gray-700">
+                        SMMFLOW помог мне продвинуть канал на YouTube. Заказывал подписчиков и лайки, все прошло быстро
+                        и качественно, всем рекомендую!
+                    </p>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="bg-white rounded-xl shadow-md p-6 border border-gray-200 hover:border-primary transition">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="flex items-center">
+                            <img src="./rasmlar/73x73.png.png" alt="Анна" class="w-12 h-12 rounded-full mr-4">
+                            <div>
+                                <h3 class="font-bold">Анна</h3>
+                            </div>
+                        </div>
+                        <div class="text-yellow-400 text-lg">★★★★★</div>
+                    </div>
+                    <p class="text-gray-700">
+                        Я не ожидала, что продвижение в Instagram может быть таким простым. Заказала подписчиков через
+                        SMMFLOW и очень довольна результатом.
+                    </p>
+                </div>
+
+                <!-- Review 3 -->
+                <div class="bg-white rounded-xl shadow-md p-6 border border-gray-200 hover:border-primary transition">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="flex items-center">
+                            <img src="./rasmlar/73x73.png.png" alt="Дмитрий" class="w-12 h-12 rounded-full mr-4">
+                            <div>
+                                <h3 class="font-bold">Дмитрий</h3>
+                            </div>
+                        </div>
+                        <div class="text-yellow-400 text-lg">★★★★★</div>
+                    </div>
+                    <p class="text-gray-700">
+                        Приобрел подписчиков и лайки на TikTok, результат превзошел все ожидания. Быстро, качественно,
+                        оправдало свои деньги. Рекомендую!
+                    </p>
+                </div>
+
+                <!-- Review 4 -->
+                <div
+                    class="bg-white rounded-xl shadow-md p-6 border border-gray-200 hover:border-primary transition md:col-span-2 lg:col-span-1">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="flex items-center">
+                            <img src="./rasmlar/73x73.png.png" alt="Ксения" class="w-12 h-12 rounded-full mr-4">
+                            <div>
+                                <h3 class="font-bold">Ксения</h3>
+                            </div>
+                        </div>
+                        <div class="text-yellow-400 text-lg">★★★★★</div>
+                    </div>
+                    <p class="text-gray-700">
+                        Воспользовалась услугами для TikTok. Очень довольна, особенно быстрой доставкой. Буду заказывать
+                        еще!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Discount Section -->
+    <div class="container mx-auto px-4 my-12">
+        <div
+            class="bg-gradient-to-r from-blue-700 to-blue-900 text-white rounded-xl p-8 md:p-12 text-center shadow-xl relative overflow-hidden">
+            <div class="relative z-10">
+                <h2 class="text-3xl font-bold mb-4">Скидки до 50%</h2>
+                <p class="text-xl mb-2">в нашем телеграм-канале</p>
+                <p class="text-lg mb-8">Раздаем промокоды в Telegram каждую неделю</p>
+
+                <div class="mb-8">
+                    <img src="./rasmlar/Saly-2.png" alt="Promo" class="mx-auto w-full max-w-xs">
+                </div>
+
+                <a href="#"
+                    class="bg-blue-400 text-white px-8 py-3 rounded-md font-bold text-lg hover:bg-blue-500 transition transform hover:-translate-y-0.5 shadow-lg hover:shadow-xl inline-block border-2 border-blue-400">
+                    Получить промокод
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ Section -->
+    <section class="bg-white py-16 md:py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Частые вопросы</h2>
+
+            <div class="max-w-3xl mx-auto space-y-4">
+                <div class="faq-item bg-white rounded-lg p-5 shadow-sm border border-gray-200">
+                    <h3 class="font-semibold text-lg">Почему цены на ваши услуги ниже, чем у конкурентов?</h3>
+                </div>
+
+                <div class="faq-item bg-white rounded-lg p-5 shadow-sm border border-gray-200">
+                    <h3 class="font-semibold text-lg">Как вы гарантируете качество услуг?</h3>
+                </div>
+
+                <div class="faq-item bg-white rounded-lg p-5 shadow-sm border border-gray-200">
+                    <h3 class="font-semibold text-lg">Как я могу узнать о статусе моего заказа?</h3>
+                </div>
+
+                <div class="faq-item bg-white rounded-lg p-5 shadow-sm border border-gray-200">
+                    <h3 class="font-semibold text-lg">Как быстро выполняется заказ?</h3>
+                </div>
+
+                <div class="faq-item bg-white rounded-lg p-5 shadow-sm border border-gray-200">
+                    <h3 class="font-semibold text-lg">Какие способы оплаты вы принимаете?</h3>
+                </div>
+
+                <div class="faq-item bg-white rounded-lg p-5 shadow-sm border border-gray-200">
+                    <h3 class="font-semibold text-lg">Меня не заблокируют?</h3>
+                </div>
+
+                <div class="faq-item bg-white rounded-lg p-5 shadow-sm border border-gray-200">
+                    <h3 class="font-semibold text-lg">Как я могу связаться с вами?</h3>
+                </div>
+
+                <div class="faq-item bg-white rounded-lg p-5 shadow-sm border border-gray-200">
+                    <h3 class="font-semibold text-lg">Что произойдет, если мои подписчики или лайки уйдут?</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                <!-- Column 1 -->
+                <div>
+                    <img src="./rasmlar/Group 15.png" alt="SMMFLOW Logo" class="h-10 mb-4">
+                    <p class="text-gray-400 mb-6">
+                        SMMFLOW - сервис, где вы сможете приобрести качественное продвижение в социальных сетях по
+                        выгодным ценам.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <img src="./rasmlar/Frame 86.png" alt="Payment Method" class="h-8">
+                        <img src="./rasmlar/Frame 83.png" alt="Payment Method" class="h-8">
+                        <img src="./rasmlar/Frame 84.png" alt="Payment Method" class="h-8">
+                        <img src="./rasmlar/Frame 87.png" alt="Payment Method" class="h-8">
+                    </div>
+                </div>
+
+                <!-- Column 2 -->
+                <div>
+                    <h3 class="font-bold text-lg mb-4">Меню</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Каталог услуг</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Преимущества</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Отзывы</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3 -->
+                <div>
+                    <h3 class="font-bold text-lg mb-4">Документы</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Политика
+                                конфиденциальности</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Публичная оферта</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Пользовательское
+                                соглашение</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Правила сервиса</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Контакты</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4 -->
+                <div>
+                    <h3 class="font-bold text-lg mb-4">Нужна помощь?</h3>
+                    <div class="mb-4">
+                        <img src="./rasmlar/Frame 41.png" alt="Support" class="h-10">
+                    </div>
+                    <ul class="space-y-2">
+                        <li><a href="mailto:support@smmflow.net"
+                                class="text-gray-400 hover:text-white transition">support@smmflow.net</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pt-6 border-t border-gray-800 text-center text-gray-500 text-sm">
+                <p>&copy; 2023 SMMFLOW. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
